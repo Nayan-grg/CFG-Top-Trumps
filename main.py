@@ -31,20 +31,7 @@ def listOfCards():
         pokemonCard =createPokemonDict(randomNumber)
         listOfPokemonCards.append(pokemonCard)
     return listOfPokemonCards
-# listOfCards()
 
-# def displayCards():
-#     cards= listOfCards()
-#     print(cards)
-#     print("Here are all your cards . Do you want to view a specific card?")
-#     x= input()
-#     while x=="yes":
-#         print("select 1-10 to view")
-#         number = int(input());
-#         print(cards[number])
-#         print("Do you want to view another card")
-#         x = input()
-#     return cards
 def selectCard():
     cards = listOfCards()
     print(cards)
